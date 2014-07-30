@@ -16,11 +16,11 @@
       method="post"
       action="http://ss1.ciw-japan.com/cgi-bin.jp/process.pl">
 
-   お名前:<input type="text" name="Name" size="40"/>
+   お名前:<input type="text" placeholder="v(´・ω・｀)v" name="Name" size="40" required/>
    <br />
    <br />
 
-   メールアドレス:<input type="text" name="Email" size="40"/>
+   メールアドレス:<input type="text" placeholder="p(´・ω・｀)q" name="Email" size="40" required/>
    <br />
    <br />
 
@@ -43,6 +43,20 @@
      <option value="Remove">希望しない</option>
    </select>
    <br />
+
+   <br />
+   働きたい国を選択してください（複数選択可）
+   <br />
+   <select name="work" multiple="multiple" size="4">
+     <option>オーストラリア</option>
+     <option>日本</option>
+     <option>インド</option>
+     <option>英国</option>
+     <option>米国</option>
+   </select>
+   <br />
+
+
    <br />
    <br />
    <input type="submit"/>
